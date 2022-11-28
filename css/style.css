@@ -1,0 +1,53 @@
+#Home{
+    background: url('https://start-it.netlify.app/img/bg.jpg') center center/cover no-repeat;
+    background-size: cover;  
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-line
+{ 
+	content:""; 
+	display:block;
+	border:none;
+    color:white;
+    height:2px;
+    background:#9a2f59;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#9a2f59), to(#fff));
+}
+.four-box-pan 
+{ 
+	margin:0 auto; 
+	display:block; 
+	border-radius:100%; 
+	width:98px; 
+	height:98px; 
+	border:2px solid #9a2f59; 
+	text-align:center; 
+	line-height:98px; 
+	color:#9a2f59; 
+	font-size:40px
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #9a2f59;
+    border-radius: 5px;
+    text-align: center;
+    color: #9a2f59;
+    margin-bottom: 30px;
+
+} 
+
+hr{	content:""; 
+display:block;
+border:none;
+color:white;
+height:2px;
+background:#9a2f59;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#9a2f59), to(#fff));
+}
